@@ -1,0 +1,4 @@
+%connect mysql://root:root@127.0.0.1:3301/db;
+%connect mysql://root:root@127.0.0.1:3302/db;
+select * from kv;
+update kv set v = '@name';
